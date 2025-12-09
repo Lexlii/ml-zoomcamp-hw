@@ -53,4 +53,4 @@ output_name = outputs[0].name
 
 result = session.run([output_name], {input_name: input_array})
 predictions = result[0][0].tolist()
-print("Predictions:", predictions)
+print("Prediction:", predictions)
